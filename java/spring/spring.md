@@ -1,37 +1,45 @@
 `目录`
-# Spring
-http://blog.csdn.net/yangyangiud/article/details/52368712
-## Factory Pattern
-### Simple Factory
-### Factory Method
-### Abstract Factory
+## Spring
+* [为什么要有Spring](http://note.youdao.com/noteshare?id=a61d1330cec20afe21d369f0526756a2&sub=wcp1556526473148138)
+* [为什么要有Spring AOP](http://note.youdao.com/noteshare?id=21f2b64abb67a24ad45baca5456648a5&sub=wcp1556587241813493)
+* [关于Spring IOC和AOP的理解](http://note.youdao.com/noteshare?id=d0aa79a9af96f02aad6e25c1d3f192b3&sub=wcp1582173498187944)
+* [Spring历史版本变迁和如今的生态帝国](http://note.youdao.com/noteshare?id=80509c0296c54ccb86c1848b95c9c530&sub=wcp15565934311825)
+* [手写一个Spring IOC的简单实现](https://github.com/zhonghuasheng/JAVA/tree/master/basic/src/main/java/com/zhonghuasheng/ioc)
+* [什么是Spring]()
+* [Spring 依赖注入](http://note.youdao.com/noteshare?id=91ac0b573c1898e8fa3b47ebfdfffbf1&sub=wcp1582257498880783)
+* [Spring Java配置](http://note.youdao.com/noteshare?id=4808a867c7b646f7f4d41a1bbe2f79fa&sub=wcp1582272695540930)
+* [Spring Bean Scope](http://note.youdao.com/noteshare?id=f0c541d742d9548342dbca9e04607758&sub=wcp1582292894805554)
+* [Spring AOP与AspectJ的对比](http://note.youdao.com/noteshare?id=b75baf23ad8073d69527838449b259c1&sub=wcp1582290319293279)
 
-## IOC/DI
-### IOC简介
-### 注入方式(常用的有三种)
-### IOC实现基本原理
 
-## AOP
-### AOP引入
-### JDK代理
-### CGLib代理
-### 模拟Spring-IOC
-### 模拟Spring-AOP
+### 依赖注入
+Spring IoC容器(ApplicationContext)负责创建Bean，并通过容器将功能类Bean注入到你需要的Bean中。Spring提供使用xml，注解，Java配置，groovy配置实现Bean的创建和注入。
+无论是xml配置，注解配置还是Java配置，都被称为配置元数据，所谓元数据即描述数据的数据。元数据本身不具备任何可执行的能力，只能通过外界代码来对这些元数据行解析后进行一些有意义的操作。Spring容器解析这些配置元数据进行Bean初始化，配置和管理依赖。
+> 声明Bean的注解:
+@Component 组件，没有明确的角色。
+@Service 在业务逻辑层(service层)使用。
+@Repository 在数据访问层(dao层)使用。
+@Controller在展现层(MVC——>SpringMVC)使用。
 
-## Spring 基础
-### Hello Spring
-### Spring Singleton
-### Spring Factory Method
-### Spring Inject Method
+> 注入Bean的注解，一般情况下通用
+@Autowired:Spring提供的注解。
+@Inject:JSR-330提供的注解。
+@Resource:JSR-250提供的注解。
 
-## Spring Liferay Cycle
-## Spring Autowire
-## Abstract Parent Import
-## Spring Annotation
-## Spring Collections
+@Autowired，@Inject，@Resource可注解在set方法或者属性上
 
-### Spring AOP
-#### Spring AOP引入
+* [Spring依赖注入之Setter注入 - Setter Injection](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/springdiwithxmlexample/setterinject)
+* [Spring依赖注入之构造函数注入 - Constructor Injection](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/springdiwithxmlexample/constructorinject)
+* [Spring自动装配]() ***[byName](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/autowiringusingxml/autowirebyname)*** ***[byType](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/autowiringusingxml/autowirebytype)***
+     ***[constructor](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/autowiringusingxml/constructor)***
+     ***[no](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/autowiringusingxml/no)***
+* [Spring通过注解实现自动装配-example1](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/annotationinjectexample)
+     ***[@Resource](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/annotationinjectexample/resource)***
+     ***[@Qualifier](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/annotationinjectexample/qualifier)***
+     ***[@Autowired](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/annotationinjectexample/autowired)***
+* [Spring通过注解实现自动装配-example2-@Service @Repository的使用](https://github.com/zhonghuasheng/JAVA/tree/master/spring4/src/main/java/com/zhonghuasheng/spring4/autodetection)
+
+
 
 `正文`
 
