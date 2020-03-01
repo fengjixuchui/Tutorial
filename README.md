@@ -9,7 +9,7 @@
 |<a href="#英语">英语</a>|<a href="#Java基础">Basic</a><br><a href="#Java虚拟机">JVM</a><br><a href="#Java-Web">Web</a><br>|<a href="#Spring生态">Spring</a><br><a href="#Spring生态">Spring Boot</a><br><a href="#Spring生态">Spring Cloud</a>|<a href="#Keepalived">Keepalived</a><br><a href="#ActiveMQ">ActiveMQ</a><br><a href="#RabbitMQ">RabbitMQ</a><br><a href="#Netty">Netty</a><br><a href="#MyBatis">Mybatis</a>|<a href="#MySQL">MySQL</a><br><a href="#Postgresql">Postgresql</a><br><a href="#Mongodb">Mongodb</a><br><a href="#Redis">Redis</a>|<a href="#Tomcat">Tomcat</a><br><a href="#Nginx">Nginx</a>|<a href="#原则">原则</a><br><a href="#安全">安全</a><br><a href="#高可用">高可用</a><br><a href="#扩展性">扩展性</a><br><a href="#伸缩性">伸缩性</a><br><a href="#性能">性能</a><br>|<a href="#数据结构">数据结构</a><br><a href="#算法">算法</a><br><a href="#设计模式">设计模式</a>|<a href="#网络">网络</a>|<a href="#软文">软文</a><br><a href="#规范">规范</a><br><a href="#工具">工具</a>|
 
 ## 英语
-* [计算机行业常用英语积累](english/english.md)
+* [计算机行业常用英语积累](tool/english.md)
 
 ## Java
 * `JavaCore`: &emsp;[Java基础](java/basic/java-basic.md)
@@ -33,13 +33,13 @@
 * [Tomcat服务器](plugins/tomcat.md)&emsp;[Nginx反向代理服务器搭建](plugins/nginx.md)
 
 ## 架构设计
-* `原则`: &emsp;[系统设计注意事项](architecture/系统设计注意事项.md)
-* `安全`: &emsp;[系统架构安全设计](architecture/系统架构安全设计.md)
-* `高可用`: &emsp;[系统架构高可用设计](architecture/系统架构高可用设计.md)
-* `扩展性`: &emsp;[系统架构扩展性设计](architecture/系统架构扩展性设计.md)
-* `伸缩性`: &emsp;[系统架构伸缩性设计](architecture/系统架构伸缩性设计.md)
-* `性能`: &emsp;[系统架构性能设计](architecture/系统架构性能设计.md)
-* `其他`: &emsp;[系统架构设计其他注意事项](architecture/系统架构设计其他注意事项.md)
+* `设计原则`: &emsp;[系统设计注意事项](architecture/系统设计注意事项.md)
+* `系统安全`: &emsp;[系统架构安全设计](architecture/系统架构安全设计.md)
+* `高可用性`: &emsp;[系统架构高可用设计](architecture/系统架构高可用设计.md)
+* `高扩展性`: &emsp;[系统架构扩展性设计](architecture/系统架构扩展性设计.md)
+* `高伸缩性`: &emsp;[系统架构伸缩性设计](architecture/系统架构伸缩性设计.md)
+* `系统性能`: &emsp;[系统架构性能设计](architecture/系统架构性能设计.md)
+* `其他事项`: &emsp;[系统架构设计其他注意事项](architecture/系统架构设计其他注意事项.md)
 
 ## 内功
 * `设计模式`: [23种设计模式](algorithm/设计模式.md)
@@ -51,9 +51,9 @@
 
 ### 程序人生
 > `软文`
-* [最好的建议](life/coding-life.md/#最好的建议)
-* [正视自己的价值](life/coding-life.md/#正视自己的价值)
-* [新工程师要干的五件事情](life/coding-life.md/#新工程师要干的五件事情)
+* [最好的建议](tool/coding-life.md/#最好的建议)
+* [正视自己的价值](tool/coding-life.md/#正视自己的价值)
+* [新工程师要干的五件事情](tool/coding-life.md/#新工程师要干的五件事情)
 
 > `规范`
 * [雅虎前端34条军规](http://note.youdao.com/noteshare?id=b59d0da4f7bb2b7ba5f73129d85b1ba1)
@@ -77,6 +77,6 @@
 <h2 align="center">技术栈</h2>
 <center>
 
-![](tutorial-2020-02-29.png)
+![](tutorial-2020-03-01.png)
 
 </center>
