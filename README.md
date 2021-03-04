@@ -1,12 +1,12 @@
 **`声明`**
-
+此项目已维护快3年多了，接下来我有了新的目标，后期的更新不会太过频繁，我也在思考如何精简自己的知识脑图。
 本项目为个人学习之总结，内容大多来源网上、书籍、视频，若引用不当，麻烦告知，我定删除。喜欢的话可以`Star`下，生活不易，希望对读者有帮助。祝好！！！
 
 ### 目录
 
 | 英语 | Java | Spring生态 | 中间件 | 数据库 | 服务器 | 网络/系统 | 架构设计 | 内功 | 程序人生 |
 |:----|:-----|:------|:------|:------|:------|:------|:------|:------|:-----|
-|<a href="#英语" h2>英语</a>|<a href="#Java">Basic</a><br><a href="#Java">JVM</a><br><a href="#Java">Web</a><br>|<a href="#Java">Spring</a><br><a href="#Java">Spring Boot</a><br><a href="#Java">Spring Cloud</a>|<a href="#中间件">Keepalived</a><br><a href="#中间件">ActiveMQ</a><br><a href="#中间件">RabbitMQ</a><br><a href="#中间件">Netty</a><br><a href="#中间件">Mybatis</a><br><a href="#中间件">Redis</a><br><a href="#中间件">Log</a>|<a href="#数据库">MySQL</a><br><a href="#数据库">Postgresql</a><br><a href="#数据库">Mongodb</a>|<a href="#服务器">Tomcat</a><br><a href="#服务器">Nginx</a>|<a href="#网络">网络</a><br><a href="#服务器">Linux</a>|<a href="#架构设计">原则</a><br><a href="#架构设计">安全</a><br><a href="#架构设计">高可用</a><br><a href="#架构设计">扩展性</a><br><a href="#架构设计">伸缩性</a><br><a href="#架构设计">性能</a><br>|<a href="#内功">数据结构</a><br><a href="#内功">算法</a><br><a href="#内功">设计模式</a>|<a href="#程序人生">软文</a><br><a href="#程序人生">规范</a><br><a href="#程序人生">工具</a><br><a href="#程序人生">面试集锦</a><br><a href="#程序人生">实战训练</a>|
+|<a href="#英语" h2>英语</a>|<a href="#Java">Basic</a><br><a href="#Java">JVM</a><br><a href="#Java">Web</a><br>|<a href="#Java">Spring</a><br><a href="#Java">Spring Boot</a><br><a href="#Java">Spring Cloud</a>|<a href="#中间件">Keepalived</a><br><a href="#中间件">ActiveMQ</a><br><a href="#中间件">RabbitMQ</a><br><a href="#中间件">RocketMQ</a><br><a href="#中间件">Netty</a><br><a href="#中间件">Mybatis</a><br><a href="#中间件">Redis</a><br><a href="#中间件">Log</a>|<a href="#数据库">MySQL</a><br><a href="#数据库">Postgresql</a><br><a href="#数据库">Mongodb</a>|<a href="#服务器">Tomcat</a><br><a href="#服务器">Nginx</a>|<a href="#网络">网络</a><br><a href="#服务器">Linux</a>|<a href="#架构设计">原则</a><br><a href="#架构设计">安全</a><br><a href="#架构设计">高可用</a><br><a href="#架构设计">扩展性</a><br><a href="#架构设计">伸缩性</a><br><a href="#架构设计">性能</a><br>|<a href="#内功">数据结构</a><br><a href="#内功">算法</a><br><a href="#内功">设计模式</a>|<a href="#程序人生">软文</a><br><a href="#程序人生">规范</a><br><a href="#程序人生">工具</a><br><a href="#程序人生">面试集锦</a><br><a href="#程序人生">实战训练</a>|
 
 ### 英语
 * [计算机行业常用英语积累](tool/english.md)
@@ -20,10 +20,10 @@
 
 ### 中间件
 * `负载均衡`: &emsp;[Keepalived系列](plugins/keepalived.md)
-* `消息通信`: &emsp;[消息通信基础](http://note.youdao.com/noteshare?id=30a11e46aaef3f00d2ecfb84692ca294&sub=wcp157828038663078)&emsp;[ActiveMQ系列](plugins/activemq.md)&emsp;[RabbitMQ系列](plugins/rabbitmq.md) &emsp;[Netty系列](plugins/netty.md)
+* `消息通信`: &emsp;[消息通信基础](http://note.youdao.com/noteshare?id=30a11e46aaef3f00d2ecfb84692ca294&sub=wcp157828038663078)&emsp;[MQ概述](plugins/mq/mq.md)&emsp;[ActiveMQ系列](plugins/activemq.md)&emsp;[RabbitMQ系列](plugins/rabbitmq.md) &emsp;[RocketMQ系列](plugins/rocketmq.md) &emsp;[Netty系列](plugins/netty.md)
 * `数据访问`: &emsp;[MyBatis](plugins/mybatis.md) &emsp;[MyBatis-Plus](plugins/mybatis-plus.md)
 * `数据缓存`: &emsp;[Redis系列](plugins/redis.md)
-* `搜索引擎`: &emsp;[ELK](plugins/elasticsearch.md)
+* `搜索引擎`: &emsp;[Elasticsearch](plugins/elasticsearch.md)
 * `日志模块`：&emsp;[Log4j2](plugins/log.md)
 
 ### 数据库
@@ -57,6 +57,7 @@
 * [最好的建议](tool/coding-life.md/#最好的建议)
 * [正视自己的价值](tool/coding-life.md/#正视自己的价值)
 * [新工程师要干的五件事情](tool/coding-life.md/#新工程师要干的五件事情)
+* [为什么CTO,技术总监，架构师不写代码都这么牛逼](http://note.youdao.com/noteshare?id=f4eeda7da9b73adf4294f984a5e7cbe5&sub=945D4467238947AAB5C030B17D5AC01E)
 
 > `规范`
 * [雅虎前端34条军规](http://note.youdao.com/noteshare?id=b59d0da4f7bb2b7ba5f73129d85b1ba1)
@@ -84,6 +85,8 @@
 
 > `实战训练`
 * [秒杀商城](https://github.com/zhonghuasheng/JAVA/tree/master/seckill)
+
+[![Stargazers over time](https://starchart.cc/zhonghuasheng/Tutorial.svg)](https://starchart.cc/zhonghuasheng/Tutorial)
 
 <center>
 <h2 align="center">技术栈</h2>
